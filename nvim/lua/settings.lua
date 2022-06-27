@@ -25,6 +25,7 @@ vim.o.showcmd = true
 vim.o.incsearch = true
 vim.o.ignorecase = true
 vim.o.smartcase = true
+vim.o.hlsearch = true
 
 vim.o.matchtime = 2 -- the delay before showing matching paren
 vim.o.matchpairs = "(:),{:},[:]"
@@ -44,3 +45,7 @@ vim.cmd([[
 -- Commands mode
 vim.o.wildmenu = true -- on TAB, complete options for system command
 vim.o.wildignore = 'deps,.svn,CVS,.git,.hg,*.o,*.a,*.class,*.mo,*.la,*.so,*.obj,*.swp,*.jpg,*.png,*.xpm,*.gif,.DS_Store,*.aux,*.out,*.toc'
+
+-- colors and themes
+-- vim.cmd([[colorscheme gruvbox]])
+vim.o.background = dark
