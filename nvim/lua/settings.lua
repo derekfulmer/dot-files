@@ -35,6 +35,7 @@ vim.o.autoindent = true
 vim.o.smartindent = true
 vim.o.tabstop = 2 -- 1 tab = 2 spaces
 vim.o.shiftwidth = 2
+vim.o.softtabstop = 2
 vim.o.expandtab = true
 
 vim.cmd([[
